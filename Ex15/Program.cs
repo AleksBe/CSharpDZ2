@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Введите положительное пятизначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if(number > 99999 || number < 10000 || number < 0) Console.WriteLine("Введено некорректное число");
+if(number > 99999 || number < 10000) Console.WriteLine("Введено некорректное число");
 else
 {
 int a = number/10000;
