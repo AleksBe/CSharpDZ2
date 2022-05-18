@@ -88,8 +88,8 @@ void NewArray(int[,] matr, int row, int column)
         for(int j = 0; j < matr.GetLength(1); j ++)
         {
             matr1[i, j] = Convert.ToString(matr[i, j]);
-            matr1[i, column] = "";
-            matr1[row, j] = "";
+            matr1[i, column] = string.Empty;
+            matr1[row, j] = string.Empty;
             Console.Write($"{matr1[i, j]} ");
         }
         Console.WriteLine();
